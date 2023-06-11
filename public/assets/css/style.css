@@ -1,0 +1,109 @@
+.info{
+    width: 50%;
+}
+.title-center{
+    margin-top: 175px;
+}
+.section4{
+    height: 800px;
+    width: auto;
+    background-image: url('../img/Composed-layer-2.png');
+    background-repeat: no-repeat;
+    /* background-position: top 50px right 200%; */
+    background-position: right -800px bottom 75%;
+    background-size: 1750px;
+    margin: 0;
+}
+.section4-container{
+    font-size: 24px;
+    width: 40%;
+    margin-top: 9%;
+    margin-left: 25%;
+}
+.shield{
+    width:100px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    left:-5%;
+}
+.accordion-section7{
+    margin: 12% 7% 0;
+    width: 50%;
+}
+.accordion-parent{
+    height: 750px;
+    background-image: url('../img/family-illustration-1.png');
+    background-repeat: no-repeat;
+    background-position: right -25% bottom -100px;
+    background-size: 600px;
+}
+.item-tick{
+    width: 600px;
+    height: auto;
+    
+}
+.item-tick>button{
+    margin: 0 auto 0;
+}
+.Section1{
+    background-image: url( '../img/health-family-1.png');
+    background-repeat: no-repeat;
+    background-position: bottom  left;
+}
+.item-tick>img{
+    width: 50px;
+    height: 50px;
+    
+}
+/* body{
+    background-image: url('banner-1.png');
+    background-repeat: no-repeat;
+    background-position: top -4% right -23%;
+    background-size: 800px;
+} */
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    top: -25%;
+    right: -19%;
+}
+.item-tick:hover{
+
+    /* border: #474444 1px solid; */
+    box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+-webkit-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+-moz-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+
+}
+.card-section2{
+    margin: 2%;
+}
+.anime{
+    transition: .5s;
+} 
+.anime:hover{
+    transform: scale(1.02);
+    box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+-webkit-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+-moz-box-shadow: -1px 2px 9px 8px rgba(0,0,0,0.14);
+
+}
+.img-after{
+    margin: 8% 0;
+    width: auto;
+    height:10px;
+}
+.section6{
+    background-image: url('../img/bg-image4.png');
+    /* background-repeat: no-repeat; */
+    background-position: top bottom;
+    background-size:cover;
+}
+.link-dark-disabled:hover {
+cursor: pointer;
+}
